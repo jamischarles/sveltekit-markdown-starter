@@ -1,9 +1,13 @@
 <script lang="ts">
+
   export let data: {
     slug: string;
     post: string;
+    snippetStyle: string;
   };
 </script>
+
+{@html `<style>${data.snippetStyle}</style>`}
 
 <h1>{data.slug}</h1>
 
