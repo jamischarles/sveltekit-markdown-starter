@@ -1,8 +1,10 @@
 # Svelte - Markdown starter
 
 - tailwind
-- svelte
-- markdown 
+- svelte (full ssg)
+- markdown (marked for markdown conversion)
+- cm6 ssg for code snippets (hard coded for now)
+- prettier for formatting the code snippets before they get syntax highlighted by cm6
 Based on https://zhifez-lee.medium.com/sveltekit-setting-up-a-markdown-based-blog-9b3fe266bf76
 
 
